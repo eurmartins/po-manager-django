@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import UserViews
+from .views.user_view import UserViews
 
 CreateUserView = UserViews.CreateUserView
 ListUsersView = UserViews.ListUsersView
